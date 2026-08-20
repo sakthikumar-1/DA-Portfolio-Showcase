@@ -15,7 +15,7 @@ export default function About() {
         <SectionHeader
           label="About"
           title="Building dashboards that"
-          highlight="drive decisions."
+          highlight=" drive decisions."
         />
 
         <div className="glass-card hover-card p-5 sm:p-6">
