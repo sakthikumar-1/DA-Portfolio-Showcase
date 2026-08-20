@@ -14,7 +14,7 @@ export default function Contact({ onScrollTo }) {
           <SectionHeader
             label="Get in touch"
             title="Let's engineer your"
-            highlight="data strategy."
+            highlight=" data strategy."
             description="I'm a data analyst focused on Power BI, SQL and Python — open to full-time roles and high-impact consulting projects."
             className="!mb-5"
           />
