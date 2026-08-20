@@ -80,9 +80,6 @@ export default function App() {
     if (route.type !== 'home') {
       window.scrollTo({ top: 0, behavior: route.type === 'project' ? 'smooth' : 'auto' });
     }
-
-    if (route.type === 'project') document.documentElement.classList.remove('snap-scroll');
-    else document.documentElement.classList.add('snap-scroll');
   }, [route]);
 
   const project = route.type === 'project' || route.type === 'dashboard' ? getProjectById(route.id) : null;
