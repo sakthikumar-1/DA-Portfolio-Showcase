@@ -248,13 +248,13 @@ body {
 }
 
 /* ── Full-page scroll snap (home only) ── */
-html.snap-scroll {
-  scroll-snap-type: y proximity;
+html {
   scroll-behavior: smooth;
+  scroll-padding-top: 90px;
 }
 
 @media (prefers-reduced-motion: reduce) {
-  html.snap-scroll {
+  html {
     scroll-behavior: auto;
   }
 
@@ -272,8 +272,6 @@ html.snap-scroll {
   position: relative;
   box-sizing: border-box;
   min-height: auto;
-  scroll-snap-align: start;
-  scroll-snap-stop: always;
   display: flex;
   flex-direction: column;
   justify-content: center;
