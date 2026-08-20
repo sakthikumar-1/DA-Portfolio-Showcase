@@ -1,0 +1,83 @@
+/* ── Design Tokens ── */
+:root {
+  /* Background layers */
+  --bg-base:       #080c14;
+  --bg-surface:    #0d1220;
+  --bg-elevated:   #111827;
+  --bg-overlay:    #151e30;
+
+  /* Borders */
+  --border-subtle: #1a2236;
+  --border-muted:  #253047;
+  --border-strong: #374151;
+
+  /* Text */
+  --text-primary:   #f0f4fc;
+  --text-secondary: #8898aa;
+  --text-muted:     #4b5a6e;
+  --text-faint:     #2a3448;
+
+  /* Accent — Teal (Healthcare) */
+  --teal-hi:     #2dd4bf;
+  --teal-lo:     #0d9488;
+  --teal-bg:     rgba(45, 212, 191, 0.07);
+  --teal-border: rgba(45, 212, 191, 0.20);
+  --teal-glow:   rgba(45, 212, 191, 0.12);
+
+  /* Accent — Amber (E-Commerce) */
+  --amber-hi:     #fbbf24;
+  --amber-lo:     #d97706;
+  --amber-bg:     rgba(251, 191, 36, 0.07);
+  --amber-border: rgba(251, 191, 36, 0.20);
+  --amber-glow:   rgba(251, 191, 36, 0.12);
+
+  /* Accent — Rose (Cybercrime) */
+  --rose-hi:     #fb7185;
+  --rose-lo:     #e11d48;
+  --rose-bg:     rgba(251, 113, 133, 0.07);
+  --rose-border: rgba(251, 113, 133, 0.20);
+  --rose-glow:   rgba(251, 113, 133, 0.12);
+
+  /* Accent — Violet (Bank Loan) */
+  --violet-hi:     #a78bfa;
+  --violet-lo:     #7c3aed;
+  --violet-bg:     rgba(167, 139, 250, 0.07);
+  --violet-border: rgba(167, 139, 250, 0.20);
+  --violet-glow:   rgba(167, 139, 250, 0.12);
+
+  /* Typography */
+  --font-display: 'Outfit', 'Inter', system-ui, sans-serif;
+  --font-body:    'Inter', system-ui, sans-serif;
+  --font-mono:    'JetBrains Mono', 'Fira Code', monospace;
+
+  /* Spacing scale */
+  --sp-1: 4px;
+  --sp-2: 8px;
+  --sp-3: 12px;
+  --sp-4: 16px;
+  --sp-5: 20px;
+  --sp-6: 24px;
+  --sp-8: 32px;
+  --sp-10: 40px;
+  --sp-12: 48px;
+  --sp-16: 64px;
+
+  /* Radius */
+  --r-sm:  6px;
+  --r-md:  10px;
+  --r-lg:  14px;
+  --r-xl:  18px;
+  --r-pill: 999px;
+
+  /* Shadows */
+  --shadow-card: 0 4px 24px rgba(0,0,0,0.4), 0 1px 4px rgba(0,0,0,0.3);
+  --shadow-glow-teal:   0 0 28px rgba(45,212,191,0.10);
+  --shadow-glow-amber:  0 0 28px rgba(251,191,36,0.10);
+  --shadow-glow-rose:   0 0 28px rgba(251,113,133,0.10);
+  --shadow-glow-violet: 0 0 28px rgba(167,139,250,0.10);
+
+  /* Transitions */
+  --ease-fast: 150ms ease;
+  --ease-base: 220ms ease;
+  --ease-slow: 380ms cubic-bezier(0.22, 1, 0.36, 1);
+}

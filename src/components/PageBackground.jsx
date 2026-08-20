@@ -1,0 +1,11 @@
+export default function PageBackground() {
+  return (
+    <div className="page-bg" aria-hidden="true">
+      <div className="page-bg__mesh" />
+      <div className="page-bg__grid" />
+      <div className="page-bg__orb page-bg__orb--1" />
+      <div className="page-bg__orb page-bg__orb--2" />
+      <div className="page-bg__orb page-bg__orb--3" />
+    </div>
+  );
+}
